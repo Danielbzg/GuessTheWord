@@ -22,8 +22,8 @@ struct GameView: View {
                             .font(.system(size: 40, weight: .bold))
                     }
                     .frame(width: 60, height: 60)
-                    .foregroundColor(model.foregroundColor)
-                    .background(model.backgroundColor)
+                    .foregroundColor(viewModel.hasError(index: index) ? .white : model.foregroundColor)
+                    .background(viewModel.hasError(index: index) ? .red : model.backgroundColor)
                 }
             }
         }

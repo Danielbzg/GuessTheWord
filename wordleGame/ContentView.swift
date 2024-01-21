@@ -10,9 +10,14 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel = ViewModel()
     var body: some View {
-        VStack(spacing: 40) {
-            GameView(viewModel: viewModel)
-            KeyboardView(viewModel: viewModel)
+        ZStack{
+            VStack(spacing: 40) {
+                GameView(viewModel: viewModel)
+                KeyboardView(viewModel: viewModel)
+            }
+            if viewModel.bannerType != nil {
+                BannerView(bannerType: viewModel.bannerType!)
+            }
         }
     }
 }

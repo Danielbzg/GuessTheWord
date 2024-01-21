@@ -15,6 +15,7 @@
 		43BEF4842B5B009D002FD1AB /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF4832B5B009D002FD1AB /* KeyboardView.swift */; };
 		43BEF4862B5B0211002FD1AB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF4852B5B0211002FD1AB /* GameView.swift */; };
 		43BEF4882B5B0503002FD1AB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEF4872B5B0503002FD1AB /* ViewModel.swift */; };
+		43DA8F8C2B5D414900B4529C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA8F8B2B5D414900B4529C /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		43BEF4832B5B009D002FD1AB /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		43BEF4852B5B0211002FD1AB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		43BEF4872B5B0503002FD1AB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		43DA8F8B2B5D414900B4529C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				43BEF4832B5B009D002FD1AB /* KeyboardView.swift */,
 				43BEF4852B5B0211002FD1AB /* GameView.swift */,
 				43BEF4872B5B0503002FD1AB /* ViewModel.swift */,
+				43DA8F8B2B5D414900B4529C /* BannerView.swift */,
 				43BEF4772B5AFA01002FD1AB /* Assets.xcassets */,
 				43BEF4792B5AFA01002FD1AB /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DA8F8C2B5D414900B4529C /* BannerView.swift in Sources */,
 				43BEF4822B5AFABF002FD1AB /* Model.swift in Sources */,
 				43BEF4842B5B009D002FD1AB /* KeyboardView.swift in Sources */,
 				43BEF4762B5AF9FF002FD1AB /* ContentView.swift in Sources */,
@@ -288,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wordleGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 47XP8ZLR32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -317,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wordleGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 47XP8ZLR32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

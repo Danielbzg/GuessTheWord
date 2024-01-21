@@ -12,7 +12,7 @@ enum Status {
     case normal
     case match
     case dontAppear
-    case Appear
+    case appear
 }
 
 var keyboardData: [LetterModel] = [
@@ -34,7 +34,7 @@ struct LetterModel {
             return Color(red: 109.0/255, green: 169.0/255, blue: 103.0/255)
         case .dontAppear:
             return Color(red: 120.0/255, green: 124.0/255, blue: 127.0/255)
-        case .Appear:
+        case .appear:
             return Color(red: 201.0/255, green: 180.0/255, blue: 87.0/255)
         }
     }
@@ -43,7 +43,7 @@ struct LetterModel {
         switch status {
         case .normal:
             return .black
-        case .match, .dontAppear, .Appear:
+        case .match, .dontAppear, .appear:
             return .white
         }
     }
